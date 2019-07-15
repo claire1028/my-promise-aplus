@@ -118,6 +118,7 @@ var resolveP = function(promise, x, resolve, reject) {
   }
 };
 
+// for promises-aplus-tests  
 Promise.defer = Promise.deferred = function () {
   let dfd = {};
   dfd.promise = new Promise((resolve, reject) => {
